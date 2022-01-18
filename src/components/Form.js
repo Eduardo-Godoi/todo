@@ -35,7 +35,7 @@ const Form = ({ input, setInput, todos, setTodos, editTodo, setEditTodo }) => {
     <form onSubmit={onFormSubmit}>
       <input
         type="text"
-        placeholder="Adicione sua Tarefa do Dia"
+        placeholder="Adicione Suas Tarefas"
         className="task-input"
         value={input}
         required
